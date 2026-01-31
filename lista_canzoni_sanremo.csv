@@ -1,0 +1,983 @@
+year,artist,song,position,category
+1951,Nilla Pizzi,Grazie dei fiori,1,Unica
+1951,Nilla Pizzi & Achille Togliani,La luna si veste d'argento,2,Unica
+1951,Achille Togliani,Serenata a nessuno,3,Unica
+1951,Achille Togliani,Al mercato di Pizzighettone,F,Unica
+1951,Nilla Pizzi & Achille Togliani,Eco fra gli abeti,F,Unica
+1951,Achille Togliani,Famme durmì,F,Unica
+1951,Duo Fasano,La cicogna distratta,F,Unica
+1951,Nilla Pizzi,La margherita,F,Unica
+1951,Achille Togliani,Sedici anni,F,Unica
+1951,Duo Fasano,Sotto il mandorlo,F,Unica
+1951,Nilla Pizzi,È l'alba,NF,Unica
+1951,Nilla Pizzi,Ho pianto una volta sola,NF,Unica
+1951,Achille Togliani,Lasciami,NF,Unica
+1951,Achille Togliani,Mai più,NF,Unica
+1951,Achille Togliani,Mani che si cercano,NF,Unica
+1951,Nilla Pizzi,Mia cara Napoli,NF,Unica
+1951,Nilla Pizzi,Notte di Sanremo,NF,Unica
+1951,Nilla Pizzi,Oro di Napoli,NF,Unica
+1951,Duo Fasano,Sorrentinella,NF,Unica
+1951,Nilla Pizzi,Tutto è finito,NF,Unica
+1952,Nilla Pizzi,Vola colomba,1,Unica
+1952,Nilla Pizzi,Papaveri e papere,2,Unica
+1952,Nilla Pizzi,Una donna prega,3,Unica
+1952,Nilla Pizzi,I due ottanelli,F,Unica
+1952,Gino Latilla,Il valzer di Nonna Speranza,F,Unica
+1952,Oscar Carboni,L'attesa,F,Unica
+1952,Achille Togliani,La collanina,F,Unica
+1952,Gino Latilla,Malinconica tarantella,F,Unica
+1952,Nilla Pizzi,Nel regno dei sogni,F,Unica
+1952,Oscar Carboni,Perché le donne belle,F,Unica
+1952,Gino Latilla,Un disco dall'Italia,F,Unica
+1952,Duo Fasano,Al ritmo della carrozzella,NF,Unica
+1952,Duo Fasano,Buonanotte ai bimbi del mondo,NF,Unica
+1952,Oscar Carboni,Cantate e sorridete,NF,Unica
+1952,Duo Fasano,Due gattini,NF,Unica
+1952,Nilla Pizzi,Il valzer di Nonna Speranza,NF,Unica
+1952,Achille Togliani,Libro di lettura,NF,Unica
+1952,Gino Latilla,Pura fantasia,NF,Unica
+1952,Duo Fasano,Vecchio tram,NF,Unica
+1952,Oscar Carboni,Madonna delle rose,NF,Unica
+1953,Carla Boni & Flo Sandon's,Viale d'autunno,1,Unica
+1953,Nilla Pizzi & Teddy Reno,Campanaro,2,Unica
+1953,Achille Togliani & Teddy Reno,Lasciami cantare una canzone,3,Unica
+1953,Gino Latilla & Giorgio Consolini,Vecchio scarpone,F,Unica
+1953,Gino Latilla & Teddy Reno,Vecchia villa comunale,F,Unica
+1953,Achille Togliani & Katyna Ranieri,No Pierrot,F,Unica
+1953,Carla Boni & Quartetto Stars,Il passerotto,F,Unica
+1953,Nilla Pizzi & Teddy Reno,Papà Pacifico,F,Unica
+1953,Gino Latilla & Giorgio Consolini,Tamburino del reggimento,F,Unica
+1953,Gino Latilla & Giorgio Consolini,Povero amico mio,F,Unica
+1953,Carla Boni & Flo Sandon's,Acque amare,NF,Unica
+1953,Nilla Pizzi & Teddy Reno,C'est la vie,NF,Unica
+1953,Achille Togliani & Katyna Ranieri,Domandatelo,NF,Unica
+1953,Nilla Pizzi & Flo Sandon's,L'altra,NF,Unica
+1953,Achille Togliani & Katyna Ranieri,La mamma che piange di più,NF,Unica
+1953,Gino Latilla & Doppio Quintetto Vocale,Innamorami,NF,Unica
+1953,Achille Togliani & Carla Boni,La pianola stonata,NF,Unica
+1953,Gino Latilla & Quartetto Stars,Ma quante,NF,Unica
+1953,Nilla Pizzi & Teddy Reno,Sussurrando buonanotte,NF,Unica
+1953,Carla Boni & Quartetto Stars,Qualcuno cammina,NF,Unica
+1954,Giorgio Consolini & Gino Latilla,Tutte le mamme,1,Unica
+1954,Katyna Ranieri & Achille Togliani,Canzone da due soldi,2,Unica
+1954,Gino Latilla & Franco Ricci,...e la barca tornò sola,3,Unica
+1954,Natalino Otto & Flo Sandon's,Notturno (Per chi non ha nessuno),4,Unica
+1954,Claudio Villa & Giorgio Consolini,Non è mai troppo tardi,5,Unica
+1954,Gino Latilla & Katyna Ranieri,Aveva un bavero,6,Unica
+1954,Carla Boni & Duo Fasano,Cirillino Ci,7,Unica
+1954,Achille Togliani & Natalino Otto,Donnina sola,8,Unica
+1954,Gino Latilla & Claudio Villa,Una bambina sei tu,9,Unica
+1954,Vittoria Mongardi & Duo Fasano,Arriva il direttore,10,Unica
+1954,Achille Togliani & Gianni Ravera,Angeli senza cielo,NF,Unica
+1954,Carla Boni & Quartetto Cetra,Berta filava,NF,Unica
+1954,Gino Latilla & Quartetto Cetra,Canzoni alla sbarra,NF,Unica
+1954,Katyna Ranieri & Vittoria Mongardi,Ciofacco,NF,Unica
+1954,Claudio Villa & Franco Ricci,Con te!,NF,Unica
+1954,Gino Latilla & Duo Fasano,E la barca tornò sola,NF,Unica
+1954,Achille Togliani & Flo Sandon's,Gioia di vivere,NF,Unica
+1954,Gino Latilla & Quartetto Cetra,Piripicchio e Piripicchia,NF,Unica
+1954,Giorgio Consolini & Katyna Ranieri,Rose (Oggi i tempi son cambiati),NF,Unica
+1954,Giorgio Consolini & Carla Boni,Sotto l'ombrello,NF,Unica
+1955,Claudio Villa & Tullio Pane,Buongiorno tristezza,1,Unica
+1955,Claudio Villa & Tullio Pane,Il torrente,2,Unica
+1955,Natalino Otto & Trio Aurora,Canto nella valle,3,Unica
+1955,Claudio Villa & Narciso Parigi,Incantatella,4,Unica
+1955,Claudio Villa & Gianni Ravera,Un cuore,5,Unica
+1955,Antonio Basurto & Gianni Ravera,Cantilena del trainante,F,Unica
+1955,Jula De Palma & Marisa Colomber,Che fai tu luna in ciel,F,Unica
+1955,Natalino Otto & Bruno Pallesi,Ci ciu cì (Cantava un usignol),F,Unica
+1955,Narciso Parigi & Radio Boys,Era un omino,F,Unica
+1955,Jula De Palma & Marisa Colomber,L'ombra,F,Unica
+1955,Bruno Rosettani & Trio Aurora,Il primo viaggio,NF,Unica
+1955,Bruno Rosettani & Radio Boys,I tre timidi,NF,Unica
+1955,Natalino Otto & Nuccia Bongiovanni,Non penserò che a te,NF,Unica
+1955,Bruno Pallesi & Nuccia Bongiovanni,Sentiero,NF,Unica
+1955,Antonio Basurto & Gianni Ravera,Una fotografia nella cornice,NF,Unica
+1955,Narciso Parigi & Radio Boys,Zucchero e pepe,NF,Unica
+1956,Franca Raimondi,Aprite le finestre,1,Unica
+1956,Tonina Torrielli,Amami se vuoi,2,Unica
+1956,Luciana Gonzales,La vita è un paradiso di bugie,3,Unica
+1956,Tonina Torrielli,Il cantico del cielo,4,Unica
+1956,Ugo Molinari,La colpa fu,5,Unica
+1956,Franca Raimondi,Il trenino del destino,6,Unica
+1956,Ugo Molinari,Albero caduto,7,Unica
+1956,Gianni Marzocchi,Musetto,8,Unica
+1956,Ugo Molinari,Nota per nota,9,Unica
+1956,Clara Vincenzi,Due teste sul cuscino,10,Unica
+1956,Luciana Gonzales,Anima gemella,NF,Unica
+1956,Luciana Gonzales,È bello,NF,Unica
+1956,Gianni Marzocchi,Ho detto al sole,NF,Unica
+1956,Clara Vincenzi,Il bosco innamorato,NF,Unica
+1956,Gianni Marzocchi,Lui e lei,NF,Unica
+1956,Franca Raimondi,Lucia e Tobia,NF,Unica
+1956,Clara Vincenzi,Parole e musica,NF,Unica
+1956,Tonina Torrielli,Qualcosa è rimasto,NF,Unica
+1956,Franca Raimondi,Sogni d'or,NF,Unica
+1956,Clara Vincenzi,Lui e lei,NF,Unica
+1957,Claudio Villa & Nunzio Gallo,Corde della mia chitarra,1,Unica
+1957,Claudio Villa & Giorgio Consolini,Usignolo,2,Unica
+1957,Gino Latilla & Tonina Torrielli,Scusami,3,Unica
+1957,Carla Boni & Tonina Torrielli,Casetta in Canadà,4,Unica
+1957,Gino Latilla & Natalino Otto,Cancello tra le rose,5,Unica
+1957,Claudio Villa & Giorgio Consolini,Il pericolo numero uno,6,Unica
+1957,Tina Allori & Flo Sandon's,Intorno a te (È sempre primavera),7,Unica
+1957,Gino Latilla & Claudio Villa,Il filo di speranza,8,Unica
+1957,Carla Boni & Duo Fasano,Le trote blu,9,Unica
+1957,Natalino Otto & Poker di Voci,Per una volta ancora,10,Unica
+1957,Gino Baldi & Jula De Palma,A poco a poco,NF,Unica
+1957,Carla Boni & Poker di Voci,Ancora ci credo,NF,Unica
+1957,Gianni Ravera & Natalino Otto,Un certo sorriso,NF,Unica
+1957,Tina Allori & Tonina Torrielli,Estasi,NF,Unica
+1957,Fiorella Bini & Gloria Christian,Era l'epoca del cuore,NF,Unica
+1957,Carla Boni & Gloria Christian,Il nostro sì,NF,Unica
+1957,Gino Baldi & Jula De Palma,Nel giardino del mio cuore,NF,Unica
+1957,Gino Baldi & Nunzio Gallo,Non ti ricordi più?,NF,Unica
+1957,Fiorella Bini & Duo Fasano,Raggio nella nebbia,NF,Unica
+1957,Jula De Palma & Marisa Del Frate,Un sogno di cristallo,NF,Unica
+1957,Flo Sandon's & Gloria Christian,Venezia mia,NF,Unica
+1958,Domenico Modugno & Johnny Dorelli,Nel blu dipinto di blu (Volare),1,Unica
+1958,Nilla Pizzi & Tonina Torrielli,L'edera,2,Unica
+1958,Gino Latilla & Nilla Pizzi,Amare un'altra,3,Unica
+1958,Claudio Villa & Giorgio Consolini,Campana di Santa Lucia,F,Unica
+1958,Claudio Villa & Nilla Pizzi,Giuro d'amarti così,F,Unica
+1958,Aurelio Fierro & Gloria Christian,Timida serenata,F,Unica
+1958,Duo Fasano & Aurelio Fierro,Fragole e cappellini,F,Unica
+1958,Carla Boni & Nick Pagano,Non potrai dimenticare,F,Unica
+1958,Johnny Dorelli & Natalino Otto,Fantastica,F,Unica
+1958,Tonina Torrielli & Cristina Jorio,Mille volte,F,Unica
+1958,Carla Boni & Gino Latilla,Arsura,NF,Unica
+1958,Claudio Villa & Giorgio Consolini,Cos'è un bacio,NF,Unica
+1958,Nilla Pizzi & Aurelio Fierro,La canzone che piace a te,NF,Unica
+1958,Duo Fasano & Trio Joyce,I trulli di Alberobello,NF,Unica
+1958,Carla Boni & Giorgio Consolini,Io sono te,NF,Unica
+1958,Tonina Torrielli & Duo Fasano,Nozze d'oro,NF,Unica
+1958,Gino Latilla & Gloria Christian,Ho disegnato un cuore,NF,Unica
+1958,Claudio Villa & Oscar Carboni,Fragole e cappellini,NF,Unica
+1958,Marisa Del Frate & Giorgio Consolini,È molto facile dirsi addio,NF,Unica
+1958,Johnny Dorelli & Gloria Christian,Se tornassi tu,NF,Unica
+1959,Domenico Modugno & Johnny Dorelli,Piove (Ciao ciao bambina),1,Unica
+1959,Arturo Testa & Gino Latilla,Io sono il vento,2,Unica
+1959,Teddy Reno & Achille Togliani,Conoscerti,3,Unica
+1959,Fausto Cigliano & Nilla Pizzi,Sempre con te,F,Unica
+1959,Teddy Reno & Aurelio Fierro,Lì per lì,F,Unica
+1959,Betty Curtis & Wilma De Angelis,Nessuno,F,Unica
+1959,Natalino Otto & Aurelio Fierro,Avevamo la stessa età,F,Unica
+1959,Claudio Villa & Betty Curtis,Un bacio sulla bocca,F,Unica
+1959,Jula De Palma & Tonina Torrielli,Tua,F,Unica
+1959,Johnny Dorelli & Gino Latilla,Partir con te,F,Unica
+1959,Nilla Pizzi & Tonina Torrielli,Adorami,NF,Unica
+1959,Fausto Cigliano & Miranda Martino,Così così,NF,Unica
+1959,Claudio Villa & Nilla Pizzi,Il nostro refrain,NF,Unica
+1959,Wilma De Angelis & Arturo Testa,La luna è un'altra,NF,Unica
+1959,Wanda Osiris & Teddy Reno,Lì per lì,NF,Unica
+1959,Miranda Martino & Fausto Cigliano,Ma baciami,NF,Unica
+1959,Anna D'Amico & Natalino Otto,Né stelle né mare,NF,Unica
+1959,Gino Latilla & Claudio Villa,Saluti e baci,NF,Unica
+1959,Arturo Testa & Wilma De Angelis,Un poco,NF,Unica
+1959,Achille Togliani & Jula De Palma,La vita mi ha dato solo te,NF,Unica
+1960,Renato Rascel & Tony Dallara,Romantica,1,Unica
+1960,Domenico Modugno & Teddy Reno,Libero,2,Unica
+1960,Wilma De Angelis & Joe Sentieri,Quando vien la sera,3,Unica
+1960,Nilla Pizzi & Tonina Torrielli,Colpevole,4,Unica
+1960,Gino Latilla & Miranda Martino,Il mare,5,Unica
+1960,Paolo Bacilieri & Sergio Bruni,È mezzanotte,6,Unica
+1960,Fausto Cigliano & Irene D'Areni,È vero,7,Unica
+1960,Johnny Dorelli & Joe Sentieri,Hurrà,8,Unica
+1960,Germana Caroli & Arturo Testa,Gridare di gioia,9,Unica
+1960,Jula De Palma & Tony Del Monaco,Notte mia,10,Unica
+1960,Giorgio Consolini & Sergio Bruni,Il mare,NF,Unica
+1960,Betty Curtis & Mina,Non sei felice,NF,Unica
+1960,Johnny Dorelli & Betty Curtis,Amore senza sole,NF,Unica
+1960,Gloria Christian & Poker di Voci,A come amore,NF,Unica
+1960,Achille Togliani & Giorgio Consolini,Amore abisso dolce,NF,Unica
+1960,Mina & Teddy Reno,È vero,NF,Unica
+1960,Claudio Villa & Nilla Pizzi,Invoco te,NF,Unica
+1960,Tonina Torrielli & Arturo Testa,Perdoniamoci,NF,Unica
+1960,Fausto Cigliano & Irene D'Areni,Splende il sole,NF,Unica
+1960,Miranda Martino & Enrico Polito,Vento pioggia... scarpe rotte,NF,Unica
+1961,Betty Curtis & Luciano Tajoli,Al di là,1,Unica
+1961,Adriano Celentano & Little Tony,24 mila baci,2,Unica
+1961,Milva & Gino Latilla,Il mare nel cassetto,3,Unica
+1961,Mina & Jenny Luna,Io amo tu ami,4,Unica
+1961,Pino Donaggio & Teddy Reno,Come sinfonia,5,Unica
+1961,Mina & Nelly Fioramonti,Le mille bolle blu,6,Unica
+1961,Gino Paoli & Tony Dallara,Un uomo vivo,7,Unica
+1961,Sergio Bruni & Rocco Granata,Carolina dai!,8,Unica
+1961,Joe Sentieri & Sergio Bruni,Lei,9,Unica
+1961,Tonina Torrielli & Arturo Testa,Febbre di musica,10,Unica
+1961,Claudio Villa & Sergio Renda,Mare di dicembre,11,Unica
+1961,Umberto Bindi & Miranda Martino,Non mi dire chi sei,12,Unica
+1961,Cocky Mazzetti & Joe Sentieri,Libellule,NF,Unica
+1961,Nilla Pizzi & Fausto Cigliano,A.A.A. Adorabile cercasi,NF,Unica
+1961,Aura D'Angelo & Silvia Guidi,Notturno senza luna,NF,Unica
+1961,Teddy Reno & Nilla Pizzi,Mandolino... mandolino,NF,Unica
+1961,Wilma De Angelis & Betty Curtis,Patatina,NF,Unica
+1961,Arturo Testa & Jolanda Rossin,Princess,NF,Unica
+1961,Luciano Tajoli & Little Tony,Pozzanghere,NF,Unica
+1961,Giorgio Consolini & Gianni Meccia,Solo nel mondo,NF,Unica
+1961,Carla Boni & Aurelio Fierro,Tu con me,NF,Unica
+1961,Achille Togliani & Cocky Mazzetti,Qualcuno mi ama,NF,Unica
+1961,Jula De Palma & Jimmy Fontana,Lady Luna,NF,Unica
+1961,Nadia Liani & Rocco Granata,Che freddo!,NF,Unica
+1962,Domenico Modugno & Claudio Villa,Addio... addio,1,Unica
+1962,Milva & Sergio Bruni,Tango italiano,2,Unica
+1962,Sergio Bruni & Ernesto Bonino,Gondolì gondolà,3,Unica
+1962,Tony Renis & Emilio Pericoli,Quando quando quando,4,Unica
+1962,Milva & Miriam Del Mare,Stanotte al luna park,5,Unica
+1962,Arturo Testa & Jolanda Rossin,I colori della felicità,6,Unica
+1962,Joe Sentieri & Aurelio Fierro,Cipria di sole,7,Unica
+1962,Johnny Dorelli & Betty Curtis,Buongiorno amore,8,Unica
+1962,Arturo Testa & Flo Sandon's,Passa il tempo,9,Unica
+1962,Gino Bramieri & Aurelio Fierro,Lui andava a cavallo,10,Unica
+1962,Betty Curtis & Luciano Tajoli,Il cielo cammina,11,Unica
+1962,Wilma De Angelis & Lucia Altieri,Lumicini rossi,12,Unica
+1962,Sergio Endrigo & Ivana Spagna (Errore: Ivana Borgia),Tango del mare,NF,Unica
+1962,Claudio Villa & Ginny Arnell,Quando il vento d'aprile,NF,Unica
+1962,Nelly Fioramonti & Claudio Villa,Aspettandoti,NF,Unica
+1962,Cocky Mazzetti & Pierfilippi,Occhi senza lacrime,NF,Unica
+1962,Fausto Cigliano & Jenny Luna,Cose inutili,NF,Unica
+1962,Rocco Granata & Johnny Dorelli,L'ombrellone,NF,Unica
+1962,Gloria Christian & Fabrizio Ferretti,Innamorati,NF,Unica
+1962,Wanda Romanelli & Ernesto Bonino,Fiori sull'acqua,NF,Unica
+1962,Mario D'Alba & Silvia Guidi,Conta le stelle,NF,Unica
+1962,Giorgio Consolini & Narciso Parigi,Vita,NF,Unica
+1962,Corrado Lojacono & Luciano Tajoli,L'anellino,NF,Unica
+1962,Rossana & Edda Montanari,Prima del perdono,NF,Unica
+1962,Giacomo Rondinella & Gesy Sebena,Il nostro amore,NF,Unica
+1962,Gene Colonnello & Gloria Christian,Due cipressi,NF,Unica
+1962,Tony Renis & Emilio Pericoli,Quando quando quando,F,Unica
+1962,Rocco Montana & Rossana,Vestita di rosso,NF,Unica
+1962,Gian Costello & Aurelio Fierro,Centomila volte,NF,Unica
+1962,Nunzio Gallo & Rocco Montana,L'ultimo pezzo di terra,NF,Unica
+1962,Myriam Del Mare & Gene Colonnello,Pesca tu che pesco io,NF,Unica
+1963,Tony Renis & Emilio Pericoli,Uno per tutte,1,Unica
+1963,Claudio Villa & Eugenia Foligatti,Amor mon amour my love,2,Unica
+1963,Pino Donaggio & Cocky Mazzetti,Giovane giovane,3,Unica
+1963,Wilma De Angelis & Flo Sandon's,Non costa niente,4,Unica
+1963,Milva & Gianni Lacommare,Ricorda,5,Unica
+1963,Tonina Torrielli & Eugenia Foligatti,Perdonarsi in due,6,Unica
+1963,Claudio Villa & Maria Paris,Occhi neri e cielo blu,7,Unica
+1963,Aurelio Fierro & Claudio Villa,Jammo ja,8,Unica
+1963,Joe Sentieri & Pino Donaggio,Tu venisti dal mare,9,Unica
+1963,Johnny Dorelli & Quartetto Radar,Non sapevo,10,Unica
+1963,Arturo Testa & Joe Sentieri,Quando ci si vuol bene (come noi),F,Unica
+1963,Luciano Tajoli & Ennio Sangiusto,Le voci,NF,Unica
+1963,Sergio Bruni & Mario Abbate,Un cappotto rivoltato,NF,Unica
+1963,Milva & Carmelina,Non sapevo,NF,Unica
+1963,Aurelio Fierro & Sergio Bruni,Oggi non ho tempo,NF,Unica
+1963,Tonina Torrielli & Elsa Vazzoler,Com'è piccolo il cielo,NF,Unica
+1963,Cocky Mazzetti & Quartetto Radar,La ballata del pedone,NF,Unica
+1963,Gian Costello & Ennio Sangiusto,Sull'acqua,NF,Unica
+1963,Mario Abbate & Quartetto Radar,Vorrei fermare il tempo,NF,Unica
+1963,Carmen Villani & Arturo Testa,Io che non piango mai,NF,Unica
+1963,Eugenia Foligatti & Gianni Lacommare,Fermate il mondo,NF,Unica
+1964,Gigliola Cinquetti & Patricia Carli,Non ho l'età (Per amarti),1,Unica
+1964,Claudio Villa & Domenico Modugno,Che me ne importa a me,2,Unica
+1964,Roby Ferrante & Piero Focaccia,Ogni volta,2,Unica
+1964,Gino Paoli & Antonio Prieto,Ieri ho incontrato mia madre,F,Unica
+1964,Little Tony & Gene Pitney,Quando vedrai la mia ragazza,F,Unica
+1964,Pino Donaggio & Frankie Avalon,Motivo d'amore,F,Unica
+1964,Remo Germani & Nino Tempo e April Stevens,Stasera no no no,F,Unica
+1964,Milva & Frida Boccara,L'ultimo tram,F,Unica
+1964,Fabrizio Ferretti & Gil Fields e The Fraternity Brothers,La prima che incontro,F,Unica
+1964,Bruno Filippini & The Fraternity Brothers,Sabato sera,F,Unica
+1964,Giorgio Gaber & Patricia Carli,Così felice,F,Unica
+1964,Bobby Solo & Frankie Laine,Una lacrima sul viso,F,Unica
+1964,Tony Renis & Frankie Avalon,I sorrisi di sera,NF,Unica
+1964,Fausto Cigliano & Gene Pitney,E se domani,NF,Unica
+1964,Ben E. King & Tony Dallara,Come potrei dimenticarti,NF,Unica
+1964,Paul Anka & Roby Ferrante,Ogni volta,NF,Unica
+1964,Cocky Mazzetti & Los Hermanos Rigual,Mezzanotte,NF,Unica
+1964,Claudio Villa & Peggy March,Passo su passo,NF,Unica
+1964,Robertino & Bobby Rydell,Un bacio piccolissimo,NF,Unica
+1964,Lilly Bonato & Richard Moser jr.,Tu piangi per niente,NF,Unica
+1964,Fabrizio Ferretti & The Fraternity Brothers,La prima che incontro,NF,Unica
+1964,Laura Villa & Los Hermanos Rigual,Sole sole,NF,Unica
+1964,Piero Focaccia & Bobby Rydell,L'inverno cosa fai?,NF,Unica
+1964,Emilio Pericoli & Peter Kraus,Piccolo piccolo,NF,Unica
+1965,Bobby Solo & New Christy Minstrels,Se piangi se ridi,1,Unica
+1965,Ornella Vanoni & Udo Jürgens,Abbracciami forte,2,Unica
+1965,Nicola Di Bari & Gene Pitney,Amici miei,2,Unica
+1965,Bruno Filippini & Yukari Ito,L'amore ha i tuoi occhi,F,Unica
+1965,Gigliola Cinquetti & Connie Francis,Ho bisogno di vederti,F,Unica
+1965,Betty Curtis & Petula Clark,Invece no,F,Unica
+1965,Pino Donaggio & Jody Miller,Io che non vivo (senza te),F,Unica
+1965,Fred Bongusto & Kiki Dee,Aspetta domani,F,Unica
+1965,Wilma Goich & New Christy Minstrels,Le colline sono in fiore,F,Unica
+1965,Vittorio Inzaina & Les Surfs,Si vedrà,F,Unica
+1965,Remo Germani & Audrey,Prima o poi,F,Unica
+1965,Milva & Bernd Spier,Vieni con noi,F,Unica
+1965,Peppino Gagliardi & Timi Yuro,Ti credo,NF,Unica
+1965,John Foster & Joe Damiano,Cominciamo ad amarci,NF,Unica
+1965,Ricky Gianco & Jody Miller,Devi essere tu,NF,Unica
+1965,Robertino & Billy J. Kramer & The Dakotas,Di fronte all'amore,NF,Unica
+1965,Fabrizio Ferretti & Dusty Springfield,Di fronte all'amore,NF,Unica
+1965,Gianni Mascolo & Dusty Springfield,Di fronte all'amore,NF,Unica
+1965,Bruno Lauzi & Kenny Rankin,Il tuo amore,NF,Unica
+1965,Iva Zanicchi & Gene Pitney,I tuoi anni più belli,NF,Unica
+1965,Don Miko & Timi Yuro,E poi verrà l'autunno,NF,Unica
+1965,Beppe Cardile & Anita Harris,L'amore è partito,NF,Unica
+1965,Nicola Di Bari & Gene Pitney,Amici miei,NF,Unica
+1965,Hoagy Lands & Giordano Colombo,Io non volevo,NF,Unica
+1965,Franco Tozzi & Johnny Tillotson,Non a caso il destino (ci ha fatto incontrare),NF,Unica
+1965,Carmen Villani & Bernd Spier,Io ca te voglio bene,NF,Unica
+1966,Domenico Modugno & Gigliola Cinquetti,Dio come ti amo,1,Unica
+1966,Caterina Caselli & Gene Pitney,Nessuno mi può giudicare,2,Unica
+1966,Iva Zanicchi & Vic Dana,La notte dell'addio,3,Unica
+1966,Orietta Berti & Ornella Vanoni,Io ti darò di più,6,Unica
+1966,Giorgio Gaber & Pat Boone,Mai mai mai Valentina,F,Unica
+1966,Sergio Endrigo & Chad & Jeremy,Adesso sì,F,Unica
+1966,Edoardo Vianello & Françoise Hardy,Parlami di te,F,Unica
+1966,Pino Donaggio & Claudio Villa,Una casa in cima al mondo,F,Unica
+1966,Anna Identici & New Christy Minstrels,Una rosa da Vienna,F,Unica
+1966,Milva & Richard Anthony,Nessuno di voi,F,Unica
+1966,Remo Germani & Les Surfs,Così come viene,F,Unica
+1966,Peppino Gagliardi & Pat Boone,Se tu non fossi qui,F,Unica
+1966,Wilma Goich & Les Surfs,In un fiore,F,Unica
+1966,Lucio Dalla & The Yardbirds,Pafff... bum!,NF,Unica
+1966,Adriano Celentano & Trio del Clan,Il ragazzo della via Gluck,NF,Unica
+1966,Bobby Solo & The Yardbirds,Questa volta,NF,Unica
+1966,Equipe 84 & The Renegades,Un giorno tu mi cercherai,NF,Unica
+1966,Gino Paoli & Ricardo,La carta vincente,NF,Unica
+1966,Nicola Di Bari & Gene Pitney,Lei mi aspetta,NF,Unica
+1966,Giuseppe Di Stefano & P.J. Proby,Per questo voglio te,NF,Unica
+1966,John Foster & Paola Bertoni,Se questo ballo non finisse mai,NF,Unica
+1966,Franco Tozzi & Bobby Vinton,Io non posso crederti,NF,Unica
+1966,Luciana Turina & Gino & The Bachelors,Dipendesse da me,NF,Unica
+1966,Plinio Maggi & Anna Marchetti,Io ti amo,NF,Unica
+1967,Claudio Villa & Iva Zanicchi,Non pensare a me,1,Unica
+1967,Annarita Spinaci & Les Surfs,Quando dico che ti amo,2,Unica
+1967,I Giganti & The Bachelors,Proposta,3,Unica
+1967,Ornella Vanoni & Mario Guarnera,La musica è finita,4,Unica
+1967,Orietta Berti & Les Compagnons de la Chanson,Io tu e le rose,5,Unica
+1967,Lucio Dalla & The Rokes,Bisogna saper perdere,6,Unica
+1967,Sergio Endrigo & Memo Remigi,Dove credi di andare,7,Unica
+1967,Gian Pieretti & Antoine,Pietre,8,Unica
+1967,Caterina Caselli & Sonny & Cher,Il cammino di ogni speranza,9,Unica
+1967,Little Tony & Mario Zelinotti,Cuore matto,10,Unica
+1967,Carmen Villani & Osvaldo Moles,Io per amore,11,Unica
+1967,Giorgio Gaber & Remo Germani,...E allora dai!,12,Unica
+1967,Mino Reitano & The Hollies,Non prego per me,13,Unica
+1967,Peppino Di Capri & Dionne Warwick,Dedicato all'amore,14,Unica
+1967,Luigi Tenco & Dalida,Ciao amore ciao,NF,Unica
+1967,Bobby Solo & Connie Francis,Canta ragazzina,NF,Unica
+1967,Wilma Goich & The Bachelors,Per vedere quant'è grande il mondo,NF,Unica
+1967,Betty Curtis & Tony Del Monaco,È più forte di me,NF,Unica
+1967,Milva & Los Bravos,Uno come noi,NF,Unica
+1967,Nicola Di Bari & Gene Pitney,Guardati alle spalle,NF,Unica
+1967,Jimmy Fontana & Adriano Celentano (Assente),L'immensità (Nota: Celentano non la cantò),NF,Unica
+1967,Don Backy & Johnny Dorelli,L'immensità,9,Unica
+1967,Fred Bongusto & Anna German,Gi,NF,Unica
+1967,Pino Donaggio & Carmen Villani,Io per amore,F,Unica
+1967,Riki Maiocchi & Marianne Faithfull,C'è chi spera,NF,Unica
+1967,Domenico Modugno & Gidiuli,Sopra i tetti azzurri del mio pazzo amore,NF,Unica
+1967,Claudio Lippi & Carmelo Pagano,Sì sì sì,NF,Unica
+1967,Donatella Moretti & Bobby Goldsboro,Una ragazza,NF,Unica
+1967,Edoardo Vianello & The Byrds,Nasce una vita,NF,Unica
+1968,Sergio Endrigo & Roberto Carlos,Canzone per te,1,Unica
+1968,Ornella Vanoni & Marisa Sannia,Casa bianca,2,Unica
+1968,Adriano Celentano & Milva,Canzone,3,Unica
+1968,Fausto Leali & Wilson Pickett,Deborah,4,Unica
+1968,Antoine & Gianni Pettenati,La tramontana,5,Unica
+1968,Gigliola Cinquetti & Giuliana Valci,Quando m'innamoro,6,Unica
+1968,Al Bano & Bob Dodd,La siepe,7,Unica
+1968,Johnny Dorelli & Paul Anka,La farfalla impazzita,8,Unica
+1968,Little Tony & Mario Zelinotti,Un uomo piange solo per amore,9,Unica
+1968,Iva Zanicchi & Udo Jürgens,Per vivere,10,Unica
+1968,Don Backy & The Rokes,Le opere di Bartolomeo,11,Unica
+1968,Anna Identici & The Sandpipers,Quando la luna,12,Unica
+1968,Massimo Ranieri & I Giganti,Da bambino,13,Unica
+1968,Dino & Wilma Goich,Gli occhi miei,14,Unica
+1968,Domenico Modugno,Meraviglioso,NF,Unica
+1968,Louis Armstrong & Lara Saint Paul,Mi va di cantare,NF,Unica
+1968,Peppino Gagliardi & Eartha Kitt,Che vale per me,NF,Unica
+1968,Tony Del Monaco & Dionne Warwick,La voce del silenzio,14,Unica (Nota: Finalista ma 14°)
+1968,Pino Donaggio & Timi Yuro,Le solite cose,NF,Unica
+1968,Sergio Leonardi & Barbarella,Il tramonto,NF,Unica
+1968,Nino Ferrer & Pilade,Il re d'Inghilterra,NF,Unica
+1968,Orietta Berti & Piergiorgio Farina,Tu che non sorridi mai,NF,Unica
+1968,Mario Guarnera & Sacha Distel,No amore,NF,Unica
+1968,Elio Gandolfi & Shirley Bassey,La vita,NF,Unica
+1968,Giusy Romeo (Giuni Russo) & Sacha Distel,No amore,NF,Unica
+1969,Bobby Solo & Iva Zanicchi,Zingara,1,Unica
+1969,Sergio Endrigo & Mary Hopkin,Lontano dagli occhi,2,Unica
+1969,Don Backy & Milva,Un sorriso,3,Unica
+1969,Fausto Leali & Tony Del Monaco,Un'ora fa,4,Unica
+1969,Nada & The Rokes,Ma che freddo fa,5,Unica
+1969,Gigliola Cinquetti & France Gall,La pioggia,6,Unica
+1969,Orietta Berti & Massimo Ranieri,Quando l'amore diventa poesia,7,Unica
+1969,Caterina Caselli & Johnny Dorelli,Il gioco dell'amore,8,Unica
+1969,Lucio Battisti & Wilson Pickett,Un'avventura,9,Unica
+1969,Little Tony & Mario Zelinotti,Bada bambina,10,Unica
+1969,Alessandra Casaccia & Memo Remigi,Una famiglia,11,Unica
+1969,Carmen Villani & Alessandra Casaccia,Piccola piccola,12,Unica
+1969,Mino Reitano & Claudio Villa,Meglio una sera piangere da solo,13,Unica
+1969,Junior Magli & The Casuals,Alla fine della strada,14,Unica
+1969,Rosanna Fratello & Brenton Wood,Il treno,NF,Unica
+1969,Elio Gandolfi & Antoine,Cosa hai messo nel caffè?,NF,Unica
+1969,Wilma Goich & The Sweet Inspirations,Baci baci baci,NF,Unica
+1969,Mal & The Showmen,Tu sei bella come sei,NF,Unica
+1969,Rita Pavone & The Rokes,Zucchero,NF,Unica
+1969,Gabriella Ferri & Stevie Wonder,Se tu ragazzo mio,NF,Unica
+1969,Leonardo & Robertino,Io che ho te,NF,Unica
+1969,Isabella Iannetti & Memo Remigi,Una famiglia,NF,Unica
+1969,Checco & The Casuals,Alla fine della strada,NF,Unica
+1969,Sonia & Robertino,Non c'è che lei,NF,Unica
+1970,Adriano Celentano & Claudia Mori,Chi non lavora non fa l'amore,1,Unica
+1970,Nicola Di Bari & Ricchi e Poveri,La prima cosa bella,2,Unica
+1970,Sergio Endrigo & Iva Zanicchi,L'arca di Noè,3,Unica
+1970,Gigliola Cinquetti & Bobby Solo,Romantico blues,4,Unica
+1970,Fausto Leali & Tony Del Monaco,Pa' diglielo a ma',5,Unica
+1970,Nada & Rosalino Cellamare (Ron),Pa' diglielo a ma',6,Unica
+1970,Orietta Berti & Nino Ferrer,Tipitipitì,7,Unica
+1970,Gianni Nazzaro & Marisa Sannia,L'amore è una colomba,8,Unica
+1970,Pio & Mal,Sole pioggia e vento,9,Unica
+1970,Dino & Anna Identici,Taxi,10,Unica
+1970,Don Backy & Sandie Shaw,I'm Your Lady (Che effetto mi fa),11,Unica
+1970,Carmen Villani & Fausto Leali,Hippy,12,Unica
+1970,Renato Rascel & Pia Colombo,Oggi è domenica,13,Unica
+1970,Little Tony & Mario Zelinotti,Spada tratta,14,Unica
+1970,Lucio Dalla & Renato Pareti,Ciao a te,NF,Unica
+1970,Patty Pravo & Elsa Quarta,La spada nel cuore,NF,Unica
+1970,Caterina Caselli & Lara Saint Paul,Re di cuori,NF,Unica
+1970,Mino Reitano & Ewa Aulin,Nell'anno ottanta,NF,Unica
+1970,Francesco Banti & Dori Ghezzi,Occhi a mandorla,NF,Unica
+1971,Nada & Nicola Di Bari,Il cuore è uno zingaro,1,Unica
+1971,Ricchi e Poveri & José Feliciano,Che sarà,2,Unica
+1971,Lucio Dalla & Equipe 84,4/3/1943,3,Unica
+1971,Don Backy & Gianni Nazzaro,Bianchi cristalli sereni,4,Unica
+1971,Wilma Goich & Mino Reitano,Ninna nanna (Cuore mio),5,Unica
+1971,Adriano Celentano & Coro Alpino Milanese,Sotto le lenzuola,6,Unica
+1971,Gigliola Cinquetti & Ray Conniff,La pioggia (Rosa nel deserto),7,Unica
+1971,Sergio Endrigo & New Trolls,Una storia,8,Unica
+1971,Orietta Berti & Gigliola Cinquetti,L'ora giusta,9,Unica
+1971,Little Tony & Formula 3,La folle corsa,10,Unica
+1971,Al Bano & Aguaviva,13 storia d'oggi,11,Unica
+1971,Massimo Ranieri & I Giganti,Sotto le lenzuola,F,Unica
+1971,Caterina Caselli & Dik Dik,Ninna nanna (Cuore mio),F,Unica
+1971,Pino Donaggio & Peppino Di Capri,L'ultimo amore,NF,Unica
+1971,Domenico Modugno,Come stai?,NF,Unica
+1971,Anna Identici,Il dirigibile,NF,Unica
+1971,Iva Zanicchi,L'ultimo amore,NF,Unica
+1971,Mau Cristiani,La porta chiusa,NF,Unica
+1971,Sergio Menegale,Il sorriso il paradiso,NF,Unica
+1972,Nicola Di Bari,I giorni dell'arcobaleno,1,Unica
+1972,Peppino Gagliardi,Come le viole,2,Unica
+1972,Nada,Re di denari,3,Unica
+1972,Gianni Morandi,Vado a lavorare,4,Unica
+1972,Iva Zanicchi,Ti amo così tanto,5,Unica
+1972,Milva,Mediterraneo,6,Unica
+1972,Mino Reitano,Un diario segreto,7,Unica
+1972,Domenico Modugno,Un calcio alla città,8,Unica
+1972,Lucio Dalla,Piazza Grande,8,Unica
+1972,Ricchi e Poveri,Un diadema di ciliegie,11,Unica
+1972,Anna Identici,Era bello il mio ragazzo,F,Unica
+1972,Marcella Bella,Montagne verdi,7,Unica
+1972,Delia,La mia vita sopra un tetto,F,Unica
+1972,Marisa Sacchetto,Il mio cuore se ne va,NF,Unica
+1972,Fausto Leali,L'uomo e il cane,NF,Unica
+1972,Roberto Vecchioni,I fari,NF,Unica
+1972,Bobby Solo,Rimpianto,NF,Unica
+1973,Peppino Di Capri,Un grande amore e niente più,1,Unica
+1973,Peppino Gagliardi,Come un ragazzino,2,Unica
+1973,Milva,Da troppo tempo,3,Unica
+1973,Ricchi e Poveri,Dolce frutto,4,Unica
+1973,Wess & Dori Ghezzi,Tu nella mia vita,6,Unica
+1973,Fausto Leali,La bandiera di sole,8,Unica
+1973,Anna Identici,Mi son chiesta tante volte,F,Unica
+1973,Mino Reitano,Ciao vita mia,NF,Unica
+1973,Umberto Balsamo,Amore mio,NF,Unica
+1973,Gigliola Cinquetti,Mistero,NF,Unica
+1973,Roberto Vecchioni,L'uomo che si gioca il cielo a dadi,F,Unica
+1973,Donatello,Tu giovane amore mio,F,Unica
+1973,Lara Saint Paul,Una casa nuova,F,Unica
+1973,Alessandro,Tre minuti di rcordi,NF,Unica
+1974,Iva Zanicchi,Ciao cara come stai?,1,Unica
+1974,Domenico Modugno,Questa è la mia vita,2,Unica
+1974,Orietta Berti,Occhi rossi,3,Unica
+1974,Anna Melato,Sta piovendo dolcemente,4,Unica
+1974,Emanuela Cortesi,Il mio volo bianco,5,Unica
+1974,Gilda Giuliani,Senza titolo,6,Unica
+1974,Les Humphries Singers,Help me Maria,NF,Unica
+1974,Little Tony,Cavalli bianchi,NF,Unica
+1974,Al Bano,In controluce,F,Unica
+1974,Mino Reitano,Innamorati,F,Unica
+1974,Ricchi e Poveri,Povera bimba,NF,Unica
+1974,Nicola Di Bari,Matta,NF,Unica
+1974,Gigliola Cinquetti,Sì,2,Unica (Nota: Inviata all'Eurovision)
+1975,Gilda,Ragazza del sud,1,Unica
+1975,Angela Luce,Ipocrisia,2,Unica
+1975,Rosanna Fratello,Va' speranza va',3,Unica
+1975,Valentina Greco,Un grande addio,4,Unica
+1975,Tiziana Rivale,L'amore è una cosa meravigliosa,F,Unica
+1975,Eugenio Alberti,Decidi tu per me,NF,Unica
+1975,Nicoletta Bauce,Educazione fisica,NF,Unica
+1975,Le Nuove Erbe,In amore non si può mentire,NF,Unica
+1975,Piero Cotto,Il pupazzo,NF,Unica
+1975,Paola Musiani,Se nasco un'altra volta,NF,Unica
+1976,Peppino Di Capri,Non lo faccio più,1,Unica
+1976,Wess & Dori Ghezzi,Come stai con chi sei,2,Unica
+1976,Sandro Giacobbe,Gli occhi di tua madre,3,Unica
+1976,Al Bano & Romina Power,We'll Live It All Again (Noi lo rivivremo di nuovo),4,Unica
+1976,Daniel Sentacruz Ensemble,Linda bella Linda,5,Unica
+1976,Orietta Berti,Omar,6,Unica
+1976,Miko,Signora tu,F,Unica
+1976,Drupi,Sambariò,F,Unica
+1976,Ricchi e Poveri,Due storie dei musicanti,F,Unica
+1976,Caterina Caselli,L'amica di mia madre,NF,Unica
+1976,La Strana Società,Andiamo via,NF,Unica
+1976,I Profeti,Cercati un'anima,NF,Unica
+1977,Homo Sapiens,Bella da morire,1,Unica
+1977,Collage,Tu mi rubi l'anima,2,Unica
+1977,Santo California,Monica,3,Unica
+1977,Albatros (Toto Cutugno),Gran Premio,F,Unica
+1977,Umberto Balsamo,L'angelo azzurro,F,Unica
+1977,Matia Bazar,Ma perché,F,Unica
+1977,Donatella Rettore,Oh Carmela,F,Unica
+1977,Dora Moroni,Ora,F,Unica
+1977,Giulietta Sacco,Dicitencello vuje,NF,Unica
+1977,La Strana Società,Tesoro mio,NF,Unica
+1977,Leano Morelli,Io ti porterei,NF,Unica
+1978,Matia Bazar,...e dirsi ciao,1,Unica
+1978,Anna Oxa,Un'emozione da poco,2,Unica
+1978,Rino Gaetano,Gianna,3,Unica
+1978,Ciro Sebastianelli,Il buio e tu,4,Unica
+1978,Alice,Il mio canto nell'aria,NF,Unica
+1978,Roberto Carrino,Amsa-cul-u-nu,NF,Unica
+1978,Dora Moroni,Che facciamo stasera?,NF,Unica
+1978,Grimm,Raggio di luna,NF,Unica
+1978,Jeans,Lei era,NF,Unica
+1978,Laura Luca,Domani domani,NF,Unica
+1978,Schola Cantorum,La montagna,NF,Unica
+1979,Mino Vergnaghi,Amare,1,Unica
+1979,Enzo Carella,Barbara,2,Unica
+1979,I Camaleonti,Quell'attimo in più,3,Unica
+1979,Antoine,Nocciolino,F,Unica
+1979,Enrico Beruschi,Sarà un fiore,5,Unica
+1979,Franco Fanigliulo,A me mi piace vivere alla grande,6,Unica
+1979,Lorella Pescerelli,New York,F,Unica
+1979,Kim & The Cadillacs,C'era un'atmosfera,F,Unica
+1979,Collage,La gente parla,F,Unica
+1979,Ayx,Ayx mania,NF,Unica
+1979,Umberto Napolitano,Bimba mia,NF,Unica
+1979,Nicoletta Bauce,Animale,NF,Unica
+1980,Toto Cutugno,Solo noi,1,Unica
+1980,Enzo Malepasso,Ti voglio bene,2,Unica
+1980,Pupo,Su di noi,3,Unica
+1980,Stefano Rosso,L'italiano,F,Unica
+1980,Beniamino Maggio,Va' pensiero,F,Unica
+1980,Gianni Belfiore,Tu mi manchi,F,Unica
+1980,I Decibel (Enrico Ruggeri),Contessa,F,Unica
+1980,Leano Morelli,Musica regina,F,Unica
+1980,Peppino Di Capri,Tu cioè...,F,Unica
+1980,Rino Gaetano (Assente),Solo noi (Nota: Rino era ospite),N/A,Unica
+1980,Sally Oldfield,Celebration,F,Unica
+1981,Alice,Per Elisa,1,Unica
+1981,Loretta Goggi,Maledetta primavera,2,Unica
+1981,Dario Baldan Bembo,Tu cosa fai stasera?,3,Unica
+1981,Luca Barbarossa,Roma spogliata,4,Unica
+1981,Ricchi e Poveri,Sarà perché ti amo,5,Unica
+1981,Eduardo De Crescenzo,Ancora,F,Unica
+1981,Fiorella Mannoia,Caffè nero bollente,F,Unica
+1981,Marcella Bella,Pensa per te,F,Unica
+1981,Michele Zarrillo,Su quel pianeta libero,F,Unica
+1981,Eduardo De Crescenzo,Ancora,F,Unica
+1982,Riccardo Fogli,Storie di tutti i giorni,1,Unica
+1982,Al Bano & Romina Power,Felicità,2,Unica
+1982,Drupi,Soli,3,Unica
+1982,Gianni Morandi,Mariù,F,Unica
+1982,Mia Martini,E non finisce mica il cielo,F,Unica (Premio Critica)
+1982,Christian,Un'altra vita un altro amore,F,Unica
+1982,Fiordaliso,Una sporca poesia,F,Unica
+1982,Zucchero Fornaciari,Una notte che vola via,F,Unica
+1982,Vasco Rossi,Vado al massimo,F,Unica
+1983,Tiziana Rivale,Sarà quel che sarà,1,Unica
+1983,Donatella Milani,Volevo dirti,2,Unica
+1983,Dori Ghezzi,Margherita non lo sa,3,Unica
+1983,Matia Bazar,Vacanze romane,4,Unica
+1983,Toto Cutugno,L'italiano,5,Unica
+1983,Fiordaliso,Oramai,6,Unica
+1983,Anna Oxa,Senza di te,F,Unica
+1983,Vasco Rossi,Vita spericolata,25,Unica
+1983,Zucchero Fornaciari,Nuvola,F,Unica
+1984,Al Bano & Romina Power,Ci sarà,1,Big
+1984,Toto Cutugno,Serenata,2,Big
+1984,Christian,Cara,3,Big
+1984,Patty Pravo,Per una bambola,10,Big
+1984,Eros Ramazzotti,Terra promessa,1,Nuove Proposte
+1984,Marco Armani,Solo con l'anima mia,2,Nuove Proposte
+1984,Valentina Gautier,La fenice,3,Nuove Proposte
+1984,Fabio Vanni,Lei balla sola,F,Nuove Proposte
+1985,Ricchi e Poveri,Se m'innamoro,1,Big
+1985,Luis Miguel,Noi ragazzi di oggi,2,Big
+1985,Gigliola Cinquetti,Chiamalo amore,3,Big
+1985,Zucchero & Randy Jackson Band,Donne,21,Big
+1985,Cinzia Corrado,Niente di più,1,Nuove Proposte
+1985,Miani,Me ne andrò,2,Nuove Proposte
+1985,Mango,Il viaggio,F,Nuove Proposte
+1986,Eros Ramazzotti,Adesso tu,1,Big
+1986,Renzo Arbore,Il clarinetto,2,Big
+1986,Marcella Bella,Senza un briciolo di testa,3,Big
+1986,Loredana Bertè,Re,9,Big
+1986,Lena Biolcati,Grande grande amore,1,Nuove Proposte
+1986,Aleandro Baldi,La nave va,2,Nuove Proposte
+1986,Giampiero Artegiani,...e le rondini sfioravano il grano,3,Nuove Proposte
+1987,Morandi Ruggeri Tozzi,Si può dare di più,1,Big
+1987,Toto Cutugno,Figli,2,Big
+1987,Al Bano & Romina Power,Nostalgia canaglia,3,Big
+1987,Fausto Leali,Io amo,4,Big
+1987,Fiorella Mannoia,Quello che le donne non dicono,8,Big
+1987,Michele Zarrillo,La notte dei pensieri,1,Nuove Proposte
+1987,Mariella Nava,Fai piano,F,Nuove Proposte
+1988,Massimo Ranieri,Perdere l'amore,1,Big
+1988,Toto Cutugno,Emozioni,2,Big
+1988,Luca Barbarossa,L'amore rubato,3,Big
+1988,Fiordaliso,Per noi,F,Big
+1988,Matia Bazar,La prima stella della sera,F,Big
+1988,Future,Canta con noi,1,Nuove Proposte
+1988,Stefano Palatresi,Bianco e nero,2,Nuove Proposte
+1988,Lijao,Per noi giovani,3,Nuove Proposte
+1989,Anna Oxa & Fausto Leali,Ti lascerò,1,Big
+1989,Toto Cutugno,Le mamme,2,Big
+1989,Al Bano & Romina Power,Cara terra mia,3,Big
+1989,Mia Martini,Almeno tu nell'universo,9,Big
+1989,Jovanotti,Vasco,5,Big
+1989,Mietta,Canzoni,1,Nuove Proposte
+1989,Jo Chiarello,Io e il cielo,2,Nuove Proposte
+1989,Franco Fasano,E quel giorno non mi perderai più,3,Nuove Proposte
+2010,Valerio Scanu,Per tutte le volte che...,1,Campioni
+2010,Pupo Emanuele Filiberto & Luca Canonici,Italia amore mio,2,Campioni
+2010,Marco Mengoni,Credimi ancora,3,Campioni
+2010,Irene Grandi,La cometa di Halley,F,Campioni
+2010,Irene Fornaciari feat. Nomadi,Il mondo piange,F,Campioni
+2010,Noemi,Per tutta la vita,F,Campioni
+2010,Malika Ayane,Ricomincio da qui,F,Campioni
+2010,Arisa,Malamorenò,F,Campioni
+2010,Povia,La verità,F,Campioni
+2010,Simone Cristicchi,Meno male,F,Campioni
+2010,Enrico Ruggeri,La notte delle fate,NF,Campioni
+2010,Fabrizio Moro,Non è una canzone,NF,Campioni
+2010,Nino D'Angelo,Jammo ja,NF,Campioni
+2010,Sonohra,Baby,NF,Campioni
+2010,Toto Cutugno,Aeroplani,NF,Campioni
+2011,Roberto Vecchioni,Chiamami ancora amore,1,Campioni
+2011,Modà feat. Emma,Arriverà,2,Campioni
+2011,Al Bano,Amanda è libera,3,Campioni
+2011,Davide Van De Sfroos,Yanez,4,Campioni
+2011,Raphael Gualazzi,Follia d'amore,F,Campioni
+2011,Luca Madonia feat. Franco Battiato,L'alieno,5,Campioni
+2011,La Crus,Io confesso,6,Campioni
+2011,Luca Barbarossa e Raquel del Rosario,Fino in fondo,F,Campioni
+2011,Anna Tatangelo,Bastardo,F,Campioni
+2011,Giusy Ferreri,Il mare immenso,F,Campioni
+2011,Nathalie,Vivo sospesa,F,Campioni
+2011,Patty Pravo,Il vento e le rose,NF,Campioni
+2011,Max Pezzali,Il mio secondo tempo,NF,Campioni
+2011,Anna Oxa,La mia anima d'uomo,NF,Campioni
+2011,Tricarico,Tre colori,NF,Campioni
+2012,Emma,Non è l'inferno,1,Campioni
+2012,Arisa,La notte,2,Campioni
+2012,Noemi,Sono solo parole,3,Campioni
+2012,Francesco Renga,La tua bellezza,4,Campioni
+2012,Marlene Kuntz,Canzone per un figlio,F,Campioni
+2012,Nina Zilli,Per sempre,F,Campioni
+2012,Samuele Bersani,Un pallone,F,Campioni
+2012,Eugenio Finardi,E tu lo chiami Dio,F,Campioni
+2012,Pierdavide Carone feat. Lucio Dalla,Nanì,5,Campioni
+2012,Matia Bazar,Sei tu,F,Campioni
+2012,Dolcenera,Ci vediamo a casa,6,Campioni
+2012,Gigi D'Alessio feat. Loredana Bertè,Respirare,F,Campioni
+2012,Chiara Civello,Al posto del mondo,F,Campioni
+2012,Irene Fornaciari,Grande mistero,NF,Campioni
+2013,Marco Mengoni,L'essenziale,1,Campioni
+2013,Elio e le Storie Tese,La canzone mononota,2,Campioni
+2013,Modà,Se si potesse non morire,3,Campioni
+2013,Malika Ayane,E se poi,4,Campioni
+2013,Raphael Gualazzi,Sai (ci basta un sogno),5,Campioni
+2013,Daniele Silvestri,A bocca chiusa,6,Campioni
+2013,Max Gazzè,Sotto casa,7,Campioni
+2013,Chiara,Il futuro che sarà,8,Campioni
+2013,Annalisa,Scintille,9,Campioni
+2013,Maria Nazionale,È colpa mia,10,Campioni
+2013,Simone Cristicchi,La prima volta (che sono morto),11,Campioni
+2013,Marta sui Tubi,Vorrei,12,Campioni
+2013,Almamegretta,Mamma non lo sa,13,Campioni
+2013,Simona Molinari feat. Peter Cincotti,La felicità,14,Campioni
+2014,Arisa,Controvento,1,Campioni
+2014,Raphael Gualazzi & The Bloody Beetroots,Liberi o no,2,Campioni
+2014,Renzo Rubino,Ora,3,Campioni
+2014,Francesco Renga,Vivendo adesso,4,Campioni
+2014,Noemi,Bagnati dal sole,5,Campioni
+2014,Perturbazione,L'unica,6,Campioni
+2014,Cristiano De André,Il cielo è vuoto,7,Campioni
+2014,Frankie hi-nrg mc,Pedala,8,Campioni
+2014,Giusy Ferreri,Ti porto a cena con me,9,Campioni
+2014,Francesco Sarcina,Nel tuo sorriso,10,Campioni
+2014,Giuliano Palma,Così lontano,11,Campioni
+2014,Antonella Ruggiero,Da lontano,12,Campioni
+2014,Ron,Sing in the Rain,13,Campioni
+2014,Riccardo Sinigallia,Prima di andare via,Squalificato,Campioni
+2015,Il Volo,Grande amore,1,Campioni
+2015,Nek,Fatti avanti amore,2,Campioni
+2015,Malika Ayane,Adesso e qui (nostalgia),3,Campioni
+2015,Annalisa,Una finestra tra le stelle,4,Campioni
+2015,Chiara,Straordinario,5,Campioni
+2015,Marco Masini,Che giorno è,6,Campioni
+2015,Dear Jack,Il mondo esplode tranne noi,7,Campioni
+2015,Gianluca Grignani,Sogni infranti,8,Campioni
+2015,Nina Zilli,Sola,9,Campioni
+2015,Lorenzo Fragola,Siamo uguali,10,Campioni
+2015,Alex Britti,Un attimo importante,11,Campioni
+2015,Irene Grandi,Un vento senza nome,12,Campioni
+2015,Nesli,Buona fortuna amore,13,Campioni
+2015,Moreno,Oggi ti parlo così,14,Campioni
+2015,Bianca Atzei,Il solo al mondo,15,Campioni
+2015,Grazia Di Michele e Mauro Coruzzi,Io sono una finestra,16,Campioni
+2015,Lara Fabian,Voce,NF,Campioni
+2015,Raf,Come una favola,NF,Campioni
+2015,Biggio e Mandelli,Vita infernale,NF,Campioni
+2015,Anna Tatangelo,Libera,NF,Campioni
+2016,Stadio,Un giorno mi dirai,1,Campioni
+2016,Francesca Michielin,Nessun grado di separazione,2,Campioni
+2016,Giovanni Caccamo e Deborah Iurato,Via da qui,3,Campioni
+2016,Enrico Ruggeri,Il primo amore non si scorda mai,4,Campioni
+2016,Lorenzo Fragola,Infinite volte,5,Campioni
+2016,Patty Pravo,Cieli immensi,6,Campioni
+2016,Clementino,Quando sono lontano,7,Campioni
+2016,Noemi,La borsa di una donna,8,Campioni
+2016,Rocco Hunt,Wake Up,9,Campioni
+2016,Arisa,Guardando il cielo,10,Campioni
+2016,Annalisa,Il diluvio universale,11,Campioni
+2016,Valerio Scanu,Finalmente piove,13,Campioni
+2016,Alessio Bernabei,Noi siamo infinito,14,Campioni
+2016,Elio e le Storie Tese,Vincere l'odio,15,Campioni
+2016,Francesca Michielin,Nessun grado di separazione,2,Campioni
+2016,Dolcenera,Ora o mai più (le cose cambiano),15,Campioni
+2016,Irene Fornaciari,Blu,16,Campioni
+2016,Bluvertigo,Semplicemente,NF,Campioni
+2016,Dear Jack,Mezzo respiro,NF,Campioni
+2016,Zero Assoluto,Di me e di te,NF,Campioni
+2016,Neffa,Sogni e nostalgia,NF,Campioni
+2017,Francesco Gabbani,Occidentali's Karma,1,Campioni
+2017,Fiorella Mannoia,Che sia benedetta,2,Campioni
+2017,Ermal Meta,Vietato morire,3,Campioni
+2017,Michele Bravi,Il diario degli errori,4,Campioni
+2017,Paola Turci,Fatti bella per te,5,Campioni
+2017,Sergio Sylvestre,Con te,6,Campioni
+2017,Fabrizio Moro,Portami via,7,Campioni
+2017,Elodie,Tutta colpa mia,8,Campioni
+2017,Bianca Atzei,Ora esisti solo tu,9,Campioni
+2017,Samuel,Vedrai,10,Campioni
+2017,Michele Zarrillo,Mani nelle mani,11,Campioni
+2017,Lodovica Comello,Il cielo non mi basta,12,Campioni
+2017,Marco Masini,Spostato di un secondo,13,Campioni
+2017,Chiara,Nessun posto è casa mia,14,Campioni
+2017,Alessio Bernabei,Nel mezzo di un applauso,15,Campioni
+2017,Clementino,Ragazzi fuori,16,Campioni
+2017,Al Bano,Di rose e di spine,NF,Campioni
+2017,Gigi D'Alessio,La prima stella,NF,Campioni
+2017,Ron,L'ottava meraviglia,NF,Campioni
+2017,Giusy Ferreri,Fa talmente male,NF,Campioni
+2017,Nesli e Alice Paba,Do re mi fa sol,NF,Campioni
+2017,Raige e Giulia Luzi,Togliamoci la voglia,NF,Campioni
+2018,Ermal Meta e Fabrizio Moro,Non mi avete fatto niente,1,Campioni
+2018,Lo Stato Sociale,Una vita in vacanza,2,Campioni
+2018,Annalisa,Il mondo prima di te,3,Campioni
+2018,Ron,Almeno pensami,4,Campioni
+2018,Ornella Vanoni con Bungaro e Pacifico,Imparare ad amarsi,5,Campioni
+2018,Max Gazzè,La leggenda di Cristalda e Pizzomunno,6,Campioni
+2018,Luca Barbarossa,Passame er sale,7,Campioni
+2018,Diodato e Roy Paci,Adesso,8,Campioni
+2018,The Kolors,Frida (mai mai mai),9,Campioni
+2018,Giovanni Caccamo,Eterno,10,Campioni
+2018,Le Vibrazioni,Così sbagliato,11,Campioni
+2018,Enzo Avitabile con Peppe Servillo,Il coraggio di ogni giorno,12,Campioni
+2018,Renzo Rubino,Custodire,13,Campioni
+2018,Noemi,Non smettere mai di cercarmi,14,Campioni
+2018,Red Canzian,Ognuno ha il suo racconto,15,Campioni
+2018,Decibel,Lettera dal Duca,16,Campioni
+2018,Nina Zilli,Senza appartenere,17,Campioni
+2018,Roby Facchinetti e Riccardo Fogli,Il segreto del tempo,18,Campioni
+2018,Mario Biondi,Rivederti,19,Campioni
+2018,Elio e le Storie Tese,Arrivederci,20,Campioni
+2019,Mahmood,Soldi,1,Campioni
+2019,Ultimo,I tuoi particolari,2,Campioni
+2019,Il Volo,Musica che resta,3,Campioni
+2019,Loredana Bertè,Cosa ti aspetti da me,4,Campioni
+2019,Simone Cristicchi,Abbi cura di me,5,Campioni
+2019,Daniele Silvestri,Argentovivo,6,Campioni
+2019,Irama,La ragazza con il cuore di latta,7,Campioni
+2019,Arisa,Mi sento bene,8,Campioni
+2019,Achille Lauro,Rolls Royce,9,Campioni
+2019,Enrico Nigiotti,Nonno Hollywood,10,Campioni
+2019,Boomdabash,Per un milione,11,Campioni
+2019,Paola Turci,L'ultimo ostacolo,12,Campioni
+2019,Francesco Renga,Aspetto che torni,13,Campioni
+2019,Ex-Otago,Solo una canzone,14,Campioni
+2019,Ghemon,Rose viola,15,Campioni
+2019,Negrita,I ragazzi stanno bene,16,Campioni
+2019,Zen Circus,L'amore è una dittatura,17,Campioni
+2019,Federica Carta e Shade,Senza farlo apposta,18,Campioni
+2019,Nek,Mi farò trovare pronto,19,Campioni
+2019,Patty Pravo con Briga,Un po' come la vita,21,Campioni
+2019,Anna Tatangelo,Le nostre anime di notte,22,Campioni
+2019,Einar,Parole nuove,23,Campioni
+2019,Motta,Dov'è l'Italia,14,Campioni
+2019,Nino D'Angelo e Livio Cori,Un'altra luce,24,Campioni
+2020,Diodato,Fai rumore,1,Campioni
+2020,Francesco Gabbani,Viceversa,2,Campioni
+2020,Pinguini Tattici Nucleari,Ringo Starr,3,Campioni
+2020,Le Vibrazioni,Dov'è,4,Campioni
+2020,Piero Pelù,Gigante,5,Campioni
+2020,Tosca,Ho amato tutto,6,Campioni
+2020,Elodie,Andromeda,7,Campioni
+2020,Achille Lauro,Me ne frego,8,Campioni
+2020,Irene Grandi,Finalmente io,9,Campioni
+2020,Rancore,Eden,10,Campioni
+2020,Raphael Gualazzi,Carioca,11,Campioni
+2020,Levante,Tikibombom,12,Campioni
+2020,Anastasio,Rosso di rabbia,13,Campioni
+2020,Alberto Urso,Il sole ad est,14,Campioni
+2020,Marco Masini,Il confronto,15,Campioni
+2020,Paolo Jannacci,Voglio parlarti adesso,16,Campioni
+2020,Rita Pavone,Niente (Resilienza 74),17,Campioni
+2020,Michele Zarrillo,Nell'estasi o nel fango,18,Campioni
+2020,Enrico Nigiotti,Baciami adesso,19,Campioni
+2020,Giordana Angi,Come mia madre,20,Campioni
+2020,Elettra Lamborghini,Musica (e il resto scompare),21,Campioni
+2020,Junior Cally,No grazie,22,Campioni
+2020,Riki,Lo sappiamo entrambi,23,Campioni
+2020,Bugo e Morgan,Sincero,Squalificati,Campioni
+2021,Måneskin,Zitti e buoni,1,Campioni
+2021,Francesca Michielin e Fedez,Chiamami per nome,2,Campioni
+2021,Ermal Meta,Un milione di cose da dirti,3,Campioni
+2021,Colapesce Dimartino,Musica leggerissima,4,Campioni
+2021,Irama,La genesi del tuo colore,5,Campioni
+2021,Willie Peyote,Mai dire mai (la locura),6,Campioni
+2021,Annalisa,Dieci,7,Campioni
+2021,Madame,Voce,8,Campioni
+2021,Orietta Berti,Quando ti sei innamorato,9,Campioni
+2021,Arisa,Potevi fare di più,10,Campioni
+2021,La Rappresentante di Lista,Amare,11,Campioni
+2021,Extraliscio feat. Davide Toffolo,Bianca luce nera,12,Campioni
+2021,Lo Stato Sociale,Combat Pop,13,Campioni
+2021,Noemi,Glicine,14,Campioni
+2021,Malika Ayane,Ti piaci così,15,Campioni
+2021,Fulminacci,Santa Marinella,16,Campioni
+2021,Max Gazzè,Il farmacista,17,Campioni
+2021,Fasma,Parlami,18,Campioni
+2021,Gaia,Cuore amaro,19,Campioni
+2021,Coma_Cose,Fiamme negli occhi,20,Campioni
+2021,Ghemon,Momento perfetto,21,Campioni
+2021,Francesco Renga,Quando trovo te,22,Campioni
+2021,Gio Evan,Arnica,23,Campioni
+2021,Elettra Lamborghini (Assente/Sostituita),N/A,N/A,Campioni
+2021,Bugo,E invece sì,24,Campioni
+2021,Aiello,Ora,25,Campioni
+2021,Random,Torno a te,26,Campioni
+2022,Mahmood e Blanco,Brividi,1,Campioni
+2022,Elisa,O forse sei tu,2,Campioni
+2022,Gianni Morandi,Apri tutte le porte,3,Campioni
+2022,Irama,Ovunque sarai,4,Campioni
+2022,Sangiovanni,Farfalle,5,Campioni
+2022,Emma,Ogni volta è così,6,Campioni
+2022,La Rappresentante di Lista,Ciao ciao,7,Campioni
+2022,Massimo Ranieri,Lettera di là dal mare,8,Campioni
+2022,Dargen D'Amico,Dove si balla,9,Campioni
+2022,Michele Bravi,Inverno dei fiori,10,Campioni
+2022,Matteo Romano,Virale,11,Campioni
+2022,Fabrizio Moro,Sei tu,12,Campioni
+2022,Aka 7even,Perfetta così,13,Campioni
+2022,Giovanni Truppi,Tuo padre mia madre Lucia,14,Campioni
+2022,Noemi,Ti amo non lo so dire,15,Campioni
+2022,Lequel (Rkomi),Insuperabile,16,Campioni
+2022,Iva Zanicchi,Voglio amarti,18,Campioni
+2022,Ditonellapiaga con Rettore,Chimica,16,Campioni
+2022,Achille Lauro,Domenica,14,Campioni
+2022,Giusy Ferreri,Miele,23,Campioni
+2022,Yuman,Qui e ora,21,Campioni
+2022,Tananai,Sesso occasionale,25,Campioni
+2022,Le Vibrazioni,Tantissimo,22,Campioni
+2022,Ana Mena,Duecentomila ore,24,Campioni
+2023,Marco Mengoni,Due vite,1,Campioni
+2023,Lazza,Cenere,2,Campioni
+2023,Mr. Rain,Supereroi,3,Campioni
+2023,Ultimo,Alba,4,Campioni
+2023,Tananai,Tangenziale (Abissale),5,Campioni
+2023,Giorgia,Parole dette male,6,Campioni
+2023,Madame,Il bene nel male,7,Campioni
+2023,Rosa Chemical,Made in Italy,8,Campioni
+2023,Elodie,Due,9,Campioni
+2023,Colapesce Dimartino,Splash,10,Campioni
+2023,Modà,Lasciami,11,Campioni
+2023,Gianluca Grignani,Quando ti manca il fiato,12,Campioni
+2023,Coma_Cose,L'addio,13,Campioni
+2023,Ariete,Mare di guai,14,Campioni
+2023,LDA,Se poi domani,15,Campioni
+2023,Articolo 31,Un bel viaggio,16,Campioni
+2023,Paola & Chiara,Furore,17,Campioni
+2023,Leo Gassmann,Terzo cuore,18,Campioni
+2023,Mara Sattei,Duemilaminuti,19,Campioni
+2023,Colla Zio,Non mi va,20,Campioni
+2023,Cugini di Campagna,Lettera 22,21,Campioni
+2023,gIANMARIA,Mostro,22,Campioni
+2023,Levante,Vivo,23,Campioni
+2023,Olly,Polvere,24,Campioni
+2023,Anna Oxa,Sali (Canto dell'anima),25,Campioni
+2023,Will,Stupido,26,Campioni
+2023,Shari,Egoista,27,Campioni
+2023,Sethu,Cause perse,28,Campioni
+2024,Angelina Mango,La noia,1,Campioni
+2024,Geolier,I p' me tu p' te,2,Campioni
+2024,Annalisa,Sinceramente,3,Campioni
+2024,Ghali,Casa mia,4,Campioni
+2024,Irama,Tu no,5,Campioni
+2024,Mahmood,Tuta gold,6,Campioni
+2024,Loredana Bertè,Pazza,7,Campioni
+2024,Il Volo,Capolavoro,8,Campioni
+2024,Alessandra Amoroso,Fino a qui,9,Campioni
+2024,Alfa,Vai!,10,Campioni
+2024,Gazzelle,Tutto qui,11,Campioni
+2024,Il Tre,Fragili,12,Campioni
+2024,Diodato,Ti muovi,13,Campioni
+2024,Emma,Apnea,14,Campioni
+2024,Fiorella Mannoia,Mariposa,15,Campioni
+2024,The Kolors,Un ragazzo una ragazza,16,Campioni
+2024,Mr. Rain,Due altalene,17,Campioni
+2024,Santi Francesi,L'amore in bocca,18,Campioni
+2024,Rose Villain,Click boom!,19,Campioni
+2024,BNKR44,Governo Punk,20,Campioni
+2024,BigMama,La rabbia non ti basta,21,Campioni
+2024,Ricchi e Poveri,Ma non tutta la vita,22,Campioni
+2024,Negramaro,Ricominciamo tutto,23,Campioni
+2024,Dargen D'Amico,Onda alta,24,Campioni
+2024,Clara,Diamanti grezzi,25,Campioni
+2024,Renga Nek,Pazzo di te,25,Campioni
+2024,Maninni,Spettacolare,26,Campioni
+2024,La Sad,Autodistruttivo,27,Campioni
+2024,Fred De Palma,Il cielo non ci vuole,28,Campioni
+2024,Sangiovanni,Finiscimi,29,Campioni
+2025,Achille Lauro,I am,TBD,Campioni
+2025,Gaia,Sesso e samba (solo),TBD,Campioni
+2025,Arisa,TBA,TBD,Campioni
+2025,Coma_Cose,TBA,TBD,Campioni
+2025,Francesco Gabbani,TBA,TBD,Campioni
+2025,Elodie,TBA,TBD,Campioni
+2025,Brunori Sas,TBA,TBD,Campioni
+2025,Noemi,TBA,TBD,Campioni
+2025,Modà,TBA,TBD,Campioni
+2025,Francesca Michielin,TBA,TBD,Campioni
+2025,Fedez,TBA,TBD,Campioni
+2025,Emis Killa,TBA,TBD,Campioni
+2025,Rose Villain,TBA,TBD,Campioni
+2025,Bresh,TBA,TBD,Campioni
+2025,The Kolors,TBA,TBD,Campioni
+2025,Shablo feat. Guè e Joshua,TBA,TBD,Campioni
+2025,Olly,TBA,TBD,Campioni
+2025,Petit,TBA,TBD,Campioni
+2025,Sarah Toscano,TBA,TBD,Campioni
+2025,Simona Molinari,TBA,TBD,Campioni
+2025,Clara,TBA,TBD,Campioni
+2025,Giorgia,TBA,TBD,Campioni
+2025,Lucio Corsi,TBA,TBD,Campioni
