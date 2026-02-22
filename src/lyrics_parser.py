@@ -7,11 +7,33 @@ Handles three file types:
   C) Wall-of-text with repeated blocks (chorus detection)
 """
 
+import json
 import re
 from pathlib import Path
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Dict
 from collections import Counter
+
+# Lazy-loaded AI structure overrides
+_AI_STRUCTURES: Optional[Dict[str, list]] = None
+
+
+def _load_ai_structures() -> Dict[str, list]:
+    """Load AI-generated structure overrides from ai_structures.json."""
+    global _AI_STRUCTURES
+    if _AI_STRUCTURES is not None:
+        return _AI_STRUCTURES
+    _AI_STRUCTURES = {}
+    json_path = Path(__file__).parent.parent / "ai_structures.json"
+    if json_path.exists():
+        with open(json_path, encoding="utf-8") as f:
+            data = json.load(f)
+        for entry in data:
+            fname = entry.get("file", "")
+            structure = entry.get("structure", [])
+            if fname and structure:
+                _AI_STRUCTURES[fname] = structure
+    return _AI_STRUCTURES
 
 _LABEL_NORMALIZE = {
     # Strofa
@@ -295,81 +317,200 @@ def _parse_bare_labels(lines: List[str]) -> List[Section]:
     return sections
 
 
-def _find_chorus_block(lines: List[str], min_block: int = 2, max_block: int = 8):
-    """Find the longest repeated consecutive block of lines (likely chorus)."""
+def _find_all_repeated_blocks(lines: List[str], min_block: int = 2, max_block: int = 8):
+    """Find all non-overlapping repeated blocks, longest first."""
     clean = [l.strip().lower() for l in lines]
-    best_block = None
-    best_positions = []
+    found = []  # list of (block_tuple, positions, size)
+    used = set()
 
     for size in range(max_block, min_block - 1, -1):
         blocks: dict = {}
         for i in range(len(clean) - size + 1):
+            if any(j in used for j in range(i, i + size)):
+                continue
             key = tuple(clean[i:i + size])
-            if key not in blocks:
-                blocks[key] = []
-            blocks[key].append(i)
+            if all(k.strip() for k in key):
+                blocks.setdefault(key, []).append(i)
 
         for block, positions in blocks.items():
-            if len(positions) > 1 and all(b.strip() for b in block):
-                if best_block is None or size > len(best_block):
-                    best_block = block
-                    best_positions = positions
-                    break
-        if best_block:
-            break
+            valid = [p for p in positions
+                     if not any(j in used for j in range(p, p + size))]
+            if len(valid) >= 2:
+                found.append((block, valid, size))
+                for p in valid:
+                    for j in range(p, p + size):
+                        used.add(j)
 
-    return best_block, best_positions
+    return found
 
 
 def _parse_wall_of_text(lines: List[str]) -> List[Section]:
-    """Use repeated-block detection to split wall-of-text into sections."""
+    """Use repeated-block detection to split wall-of-text into sections.
+
+    Finds multiple repeated blocks to detect Ritornello, Pre-Ritornello,
+    and Bridge patterns. Falls back to simple chorus detection when only
+    one repeated block exists.
+    """
     clean_lines = [l for l in lines if l.strip()]
     if not clean_lines:
         return [Section(label=None, lines=lines)]
 
-    chorus_block, positions = _find_chorus_block(clean_lines)
-
-    if not chorus_block:
+    all_blocks = _find_all_repeated_blocks(clean_lines)
+    if not all_blocks:
         return [Section(label=None, lines=clean_lines)]
 
-    block_size = len(chorus_block)
+    # Longest repeated block → Ritornello
+    chorus_block, chorus_positions, chorus_size = all_blocks[0]
+
+    # Build a map: line index → (label, block_start)
+    line_labels = {}  # idx → (label, block_start_idx)
+    chorus_starts = set(chorus_positions)
+    for pos in chorus_positions:
+        for j in range(pos, pos + chorus_size):
+            line_labels[j] = ("Ritornello", pos)
+
+    # Secondary blocks: label based on position relative to chorus
+    for block, positions, size in all_blocks[1:]:
+        # Check if this block consistently appears right before a chorus
+        before_chorus = 0
+        between_choruses = 0
+        for pos in positions:
+            block_end = pos + size
+            # Is there a chorus starting right after (within 0-1 lines)?
+            near_chorus = any(
+                cp >= block_end and cp <= block_end + 1
+                for cp in chorus_positions
+            )
+            if near_chorus:
+                before_chorus += 1
+            # Is it between two chorus instances?
+            has_chorus_before = any(cp + chorus_size <= pos for cp in chorus_positions)
+            has_chorus_after = any(cp >= pos + size for cp in chorus_positions)
+            if has_chorus_before and has_chorus_after:
+                between_choruses += 1
+
+        if before_chorus >= 2:
+            label = "Pre-Ritornello"
+        elif between_choruses >= 1 and len(positions) <= 2:
+            label = "Bridge"
+        else:
+            label = None  # can't determine, will become Strofa
+
+        if label:
+            for pos in positions:
+                for j in range(pos, pos + size):
+                    line_labels[j] = (label, pos)
+
+    # Build sections by walking through lines
     sections: List[Section] = []
-    used = set()
-
-    for pos in positions:
-        for i in range(pos, pos + block_size):
-            used.add(i)
-
-    current_verse: List[str] = []
+    current_lines: List[str] = []
+    current_label = "_verse"  # sentinel for unlabeled
     verse_num = 0
-    chorus_num = 0
 
     for i, line in enumerate(clean_lines):
-        if i in used:
-            if i in positions:
-                if current_verse:
+        if i in line_labels:
+            label, block_start = line_labels[i]
+            if i == block_start:
+                # Starting a new labeled block — flush current verse
+                if current_lines:
                     verse_num += 1
                     sections.append(Section(
-                        label=f"Strofa {verse_num}" if verse_num > 0 else None,
-                        lines=current_verse,
+                        label=f"Strofa {verse_num}",
+                        lines=current_lines,
                     ))
-                    current_verse = []
-                chorus_num += 1
+                    current_lines = []
+            # If this is the start of a labeled block, create section
+            if i == block_start:
+                block_size = sum(1 for j in range(i, len(clean_lines))
+                                 if j in line_labels and line_labels[j][1] == block_start)
                 sections.append(Section(
-                    label="Ritornello",
-                    lines=[clean_lines[j] for j in range(i, i + block_size)],
+                    label=label,
+                    lines=clean_lines[i:i + block_size],
                 ))
         else:
-            current_verse.append(line)
+            current_lines.append(line)
 
-    if current_verse:
+    # Flush remaining lines
+    if current_lines:
         verse_num += 1
         sections.append(Section(
-            label=f"Strofa {verse_num}" if verse_num > 0 else None,
-            lines=current_verse,
+            label=f"Strofa {verse_num}",
+            lines=current_lines,
         ))
 
+    # --- Post-processing refinements ---
+
+    # Outro detection: trailing section after last Ritornello that is
+    # significantly shorter than the average Strofa (not just ≤3 lines)
+    if len(sections) >= 2:
+        last = sections[-1]
+        second_last = sections[-2]
+        if (last.label and last.label.startswith("Strofa")
+                and second_last.label == "Ritornello"):
+            last_len = len([l for l in last.lines if l.strip()])
+            strofa_lens = [len([l for l in s.lines if l.strip()])
+                           for s in sections if s.label and s.label.startswith("Strofa")
+                           and s is not last]
+            avg_strofa = (sum(strofa_lens) / len(strofa_lens)) if strofa_lens else 99
+            if last_len <= max(4, avg_strofa * 0.5):
+                sections[-1] = Section(label="Outro", lines=last.lines)
+
+    # Chorus-first detection: if the first section is very short (≤2 lines)
+    # and labeled Strofa, and the Ritornello comes right after, the "Strofa 1"
+    # is likely just a junk/title line — remove it.
+    if (len(sections) >= 2
+            and sections[0].label and sections[0].label.startswith("Strofa")
+            and sections[1].label == "Ritornello"
+            and len([l for l in sections[0].lines if l.strip()]) <= 2):
+        sections.pop(0)
+
     return sections if sections else [Section(label=None, lines=clean_lines)]
+
+
+def _apply_ai_structure(lines: List[str], labels: List[str]) -> List[Section]:
+    """Apply AI-generated section labels to lyrics lines.
+
+    Splits lines into stanzas by blank lines, then assigns labels in order.
+    If blank-line stanzas match label count, use those splits.
+    Otherwise, distribute content lines evenly across labels.
+    """
+    if not labels:
+        return [Section(label=None, lines=lines)]
+
+    content_lines = [l for l in lines if l.strip()]
+
+    # Try blank-line splitting first
+    stanzas: List[List[str]] = []
+    current: List[str] = []
+    for line in lines:
+        if line.strip() == "":
+            if current:
+                stanzas.append(current)
+                current = []
+        else:
+            current.append(line)
+    if current:
+        stanzas.append(current)
+
+    if len(stanzas) >= len(labels):
+        # Enough stanzas: assign labels in order
+        sections = []
+        for i, stanza in enumerate(stanzas):
+            label = labels[i] if i < len(labels) else labels[-1]
+            sections.append(Section(label=label, lines=stanza))
+        return sections
+
+    # Not enough blank-line stanzas: distribute content lines evenly
+    n_labels = len(labels)
+    n_lines = len(content_lines)
+    chunk_size = max(1, n_lines // n_labels)
+    sections = []
+    for i, label in enumerate(labels):
+        start = i * chunk_size
+        end = start + chunk_size if i < n_labels - 1 else n_lines
+        chunk = content_lines[start:end] if start < n_lines else [""]
+        sections.append(Section(label=label, lines=chunk))
+    return sections
 
 
 def parse_lyrics(text: str, filename: str = "") -> ParsedSong:
@@ -381,7 +522,13 @@ def parse_lyrics(text: str, filename: str = "") -> ParsedSong:
 
     raw = "\n".join(lines)
 
-    if _has_bracket_headers(raw):
+    # Check for AI-generated structure override
+    ai_structs = _load_ai_structures()
+    if filename in ai_structs:
+        ai_labels = ai_structs[filename]
+        sections = _apply_ai_structure(lines, ai_labels)
+        method = "ai_override"
+    elif _has_bracket_headers(raw):
         sections = _parse_bracket_headers(lines)
         method = "bracket_headers"
     elif _has_bare_labels(raw):
@@ -397,6 +544,12 @@ def parse_lyrics(text: str, filename: str = "") -> ParsedSong:
             method = "repeated_blocks"
 
     sections = [s for s in sections if not s.is_empty]
+
+    # Strip leading/trailing None-labeled sections (Genius "Title Lyrics" junk)
+    while sections and sections[0].label is None:
+        sections.pop(0)
+    while sections and sections[-1].label is None:
+        sections.pop()
 
     return ParsedSong(
         filename=filename,
